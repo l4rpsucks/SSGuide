@@ -50,7 +50,7 @@
 - `[1]` Go to resource packs and click on open pack folder
 - `[2]` go to `.minecraft` from resource pack folder
 - `[3]` Search for the mods folder and copy the location 
-- `[4]` run CMD (ADMIN) and paste in powershell `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1)` then paste in the location of the mods and wait till the scan finishes.
+- `[4]` run CMD (ADMIN) and paste in `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/HadronCollision/PowershellScripts/refs/heads/main/HabibiModAnalyzer.ps1)` then paste in the location of the mods and wait till the scan finishes.
 
 ### System Informer: [https://systeminformer.com/canary](https://systeminformer.com/canary)
 - Settings | System Column (top left) | Options | 1. Enable Kernel driver 2. Enable undecorated symbols 3. Check services and images for Digital Signatures 4. Include a usage of collapsed processes 5. Show advanced options 
@@ -104,7 +104,7 @@ NOTE: String Search Options For ALL! | Memory | Options | Uncheck Hide Free Page
 
 [https://onedrive.live.com/view.aspx?resid=A2088A7D005E853A!sf5888e89d22d41eaa19b869d65c1d3d3&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy9hMjA4OGE3ZDAwNWU4NTNhL0lRU0pqb2oxTGRMcVFhR2JocDFsd2RQVEFSRlVHUnQ4ekFEdWExemhHenlNSnNRP2VtPTImYW1wO3dkQXI9MS43Nzc3Nzc3Nzc3Nzc3Nzc3&wdSlideId=263&wdModeSwitchTime=1746213527017](https://onedrive.live.com/view.aspx?resid=A2088A7D005E853A!sf5888e89d22d41eaa19b869d65c1d3d3&migratedtospo=true&redeem=aHR0cHM6Ly8xZHJ2Lm1zL3AvYy9hMjA4OGE3ZDAwNWU4NTNhL0lRU0pqb2oxTGRMcVFhR2JocDFsd2RQVEFSRlVHUnQ4ekFEdWExemhHenlNSnNRP2VtPTImYW1wO3dkQXI9MS.777777777777777777777777&wdSlideId=263&wdModeSwitchTime=1746213527017)
 
-## Powershell Scripts:
+## Powershell Scripts: (Run in CMD AS ADMIN)
 
 - `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/bacanoicua/Screenshare/main/RedLotusSignatures.ps1)`
 
@@ -114,11 +114,11 @@ RL Signature Check (RedLotusSignatures.ps1): Takes a list of file paths (often f
 
 Prefetch Integrity Analyzer (RedLotusPrefetchIntegrityAnalyzer.ps1): Scans the `C:\Windows\Prefetch` directory for anomalies. It checks if files are read-only, if they have the correct "MAM" header, and identifies files with duplicate hashes (potentially indicating type or echo command manipulation).
 
-- `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1`
+- `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1`)
 
 # Artifact Parsing and Data Extraction:
 
-- `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1`
+- `powershell Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass && powershell Invoke-Expression (Invoke-RestMethod https://raw.githubusercontent.com/PureIntent/ScreenShare/main/RedLotusBam.ps1`)
 
 RL BAM Script (RedLotusBam.ps1): Parses BAM registry keys, displays execution timestamps (UTC, User TimeZone), application path, attempts to resolve the user SID, and crucially, also performs a signature check (using the Get-Signature function) on the executable path, reporting its status or if the file was not found.
 
