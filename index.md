@@ -79,7 +79,12 @@ NOTE: String Search Options For ALL! | Memory | Options | Uncheck Hide Free Page
 
 - `[1]` String | `e,0a000000,Reason,00002100` | 
 
-### dnscache (svchost.exe)
+### PlugPlay (svchost.exe)
+NOTE: String Search Options For ALL! | Memory | Options | Uncheck Hide Free Pages and Reserved Pages | Strings | 5 | Private, Mapped, Image | Detect Unicode and Extended Unicode (Filter By Contains Case insensitive for all unless told otherwise)
+
+- `[1]` String | `jar | .jar | java -jar` | 
+
+dnscache (svchost.exe)
 NOTE: String Search Options For ALL! | Memory | Options | Uncheck Hide Free Pages and Reserved Pages | Strings | 5 | Private, Mapped, Image | Detect Unicode and Extended Unicode (Filter By Contains Case insensitive for all unless told otherwise)
 
 - `[1]` String | `vape|whiteout|.wtf|intent.store|neverlack|dreamclient|wise|slapp.in|echo.ac|paladin.ac|cpn.ac|entropy.club|dopp.in|porn` (Searches to see if users have gone to sites containing these strings | Ban if wiseFH shows up | Porn is a joke, but still use it xD)
